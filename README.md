@@ -7,7 +7,7 @@
 A full-stack online book store project developed using JSP, Servlets, JDBC, MySQL, and Tomcat, enabling users to register, log in, browse books, add them to cart, and purchase. Admins can manage the book inventory (add, delete, view).
 
 ## Homepage
-![Book Page](src/main/webapp/images//homepage.png)
+![Book Page](onlinebookstore/src/main/webapp/images/homepage.png)
 
 
 # This Website is built for following purpose:-
@@ -210,37 +210,38 @@ mysql-connector.jar (for JDBC)
 .Visit http://localhost:8081/onlinebookstore/
 
 # Screenshots
+
 #### Hompage
 
-![Home Page](src/main/webapp/images/homepage.png)
+![Home Page](onlinebookstore/src/main/webapp/images/homepage.png)
 
 #### User_DashBoard
 
-![Book Page](src/main/webapp/images/userdashboard.png)
+![Book Page](onlinebookstore/src/main/webapp/images/userdashboard.png)
 
 #### Available Books
 
-![Book Page](src/main/webapp/images/userBAdashboard.png)
+![Book Page](onlinebookstore/src/main/webapp/images/userBAdashboard.png)
 
 #### Order Books Dashboard
 
-![Book Page](src/main/webapp/images/orderbooksdashboard.png)
+![Book Page](onlinebookstore/src/main/webapp/images/orderbooksdashboard.png)
 
 #### Admin_DashBoard
 
-![Book Page](src/main/webapp/images/admindashboard.png)
+![Book Page](onlinebookstore/src/main/webapp/images/admindashboard.png)
 
 #### AddBooks
 
-![Book Page](src/main/webapp/images/adminaddbooks.png)
+![Book Page](onlinebookstore/src/main/webapp/images/adminaddbooks.png)
 
 #### RemoveBooks
 
-![Book Page](src/main/webapp/images/adminremovebooks.png)
+![Book Page](onlinebookstore/src/main/webapp/images/adminremovebooks.png)
 
 #### Admin Available Books 
 
-![Book Page](src/main/webapp/images/adminABdashboard.png)
+![Book Page](onlinebookstore/src/main/webapp/images/adminABdashboard.png)
 
 
 # Future Enhancements
