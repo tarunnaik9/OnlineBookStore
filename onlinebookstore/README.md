@@ -6,126 +6,141 @@
 # About 
 A full-stack online book store project developed using JSP, Servlets, JDBC, MySQL, and Tomcat, enabling users to register, log in, browse books, add them to cart, and purchase. Admins can manage the book inventory (add, delete, view).
 
-
+## Homepage
 ![Book Page](src/main/webapp/images//homepage.png)
 
 
 # This Website is built for following purpose:-
 
-. For Selling books online.
+1. For Selling books online.
 
-. Maintaining books selling history.
+2. Maintaining books selling history.
 
-. Adding and managing books.
+3. Adding and managing books.
 
-. User Friendly.
+4. User Friendly.
 
-. For Implementation of Http Servlets in Java.
+5. For Implementation of Http Servlets in Java.
 
 
 # Admin Have Following Access for this online store site:-
 
-. Add New Books.
+1. Add New Books.
 
-. View Books Available.
+2. View Books Available.
 
-. Remove Books.
+3. Remove Books.
 
-. Increase Books Amount.
+4. Increase Books Amount.
 
 
 # Users Have Following Access for this online store site:-
 
-. Create New Account or Register.
+1. Create New Account or Register.
 
-. Login.
+2. Login.
 
-. View Available Books.
+3. View Available Books.
 
-. Select Books to Buy.
+4. Select Books to Buy.
 
-. Select Books Quantity.
+5. Select Books Quantity.
 
-. Buy Books.
+6. Buy Books.
 
-. Get Payment Receipt.
+7. Get Payment Receipt.
 
 
 #  Tech Stack Used :-
 
-1. Front-End Development:
+1.Front-End Development:
 
-HTML
+   HTML
 
-CSS
+   CSS
 
-JSP
+   JSP
 
-2. Back-End Development:
-Java [JDK 8+]
+2.Back-End Development:
 
-JDBC
+   Java [JDK 8+]
 
-Servlet
+   JDBC
+
+   Servlet
 
 3.Database:
 
-MySql
+   MySql
 
 4.Server:
 
-Apache Tomcat
+   Apache Tomcat
 
 5.Tools : 	
 
- IDE - Eclipse EE
+   IDE - Eclipse EE
  
 #  How to Setup and Run Locally
 ### Prerequisites:
-.JDK 8 or above
+1. JDK 8 or above
 
-.Apache Tomcat 9.0
+2. Apache Tomcat 9.0
 
-.Eclipse EE or IntelliJ
+3. Eclipse EE or IntelliJ
 
-.MySQL installed and running
+4. MySQL installed and running
 
 
 #  Step-by-Step Installation:
-1.Clone the Repository
+### 1.Clone the Repository
 
 git clone https://github.com/tarunnaik9/OnlineBookStore.git
 
-2.Open in Eclipse EE
+### 2.Open in Eclipse EE
 
-.File > Import > Dynamic Web Project
+   1 .File > Import > Dynamic Web Project
+   2 .Choose { OnlineBookStore }
 
-.Choose OnlineBookStore
-
-3.Create MySQL Database (Dummy Database )
+### 3.Create MySQL Database (Dummy Database )
 
 CREATE DATABASE onlinebookstore;
 
 use onlinebookstore;
 
 CREATE TABLE books (
+
   barcode VARCHAR(100) PRIMARY KEY,
+  
   name VARCHAR(100),
+  
   author VARCHAR(100),
+  
   price INT,
+  
   quantity INT
+  
 );
 
 
 CREATE TABLE users (
+
   username VARCHAR(100) PRIMARY KEY,
+  
   password VARCHAR(100),
+  
   firstname VARCHAR(100),
+  
   lastname VARCHAR(100),
+  
   address TEXT,
+  
   phone VARCHAR(100),
+  
   mailid VARCHAR(100),
+  
   usertype INT
+  
 );
 
 
@@ -155,6 +170,7 @@ INSERT INTO books VALUES
 
 ('9781484255995','Practical Rust Projects','Shing Lyu',257,15);
 
+
 SELECT COUNT(*) FROM books;
 
 SELECT * FROM books;
@@ -167,7 +183,8 @@ INSERT INTO users VALUES
 
 ('tarun','tarun','tarun','tarun','telangana','123456789','tarun@gmail.com',2);
 
-4. Configure JDBC Connection
+
+### 4.Configure JDBC Connection
 
 .DBConnection.java file must have:
 
@@ -178,51 +195,66 @@ String username = "root";
 String password = "your-password";
 
 
-5.Add Required JARs
+### 5.Add Required JARs
 
 mysql-connector.jar (for JDBC)
 
 .Add to lib folder or classpath
 
-6.Run on Tomcat
+### 6.Run on Tomcat
 
  Right click on project > Run As > Run on Server
 
-7.Access in Browser
+### 7.Access in Browser
 
 .Visit http://localhost:8081/onlinebookstore/
 
 # Screenshots
+#### Hompage
 
 ![Home Page](src/main/webapp/images/homepage.png)
 
+#### User_DashBoard
+
 ![Book Page](src/main/webapp/images/userdashboard.png)
 
-![Book Page](src/main/webapp/images/user BA dashboard.png)
+#### Available Books
 
-![Book Page](src/main/webapp/images/orderbooks dashboard.png)
+![Book Page](src/main/webapp/images/userBAdashboard.png)
 
-![Book Page](src/main/webapp/images/admin dashboard.png)
+#### Order Books Dashboard
 
-![Book Page](src/main/webapp/images/admin addbooks.png)
+![Book Page](src/main/webapp/images/orderbooksdashboard.png)
 
-![Book Page](src/main/webapp/images/admin removebooks.png)
+#### Admin_DashBoard
 
-![Book Page](src/main/webapp/images/admin AB dashboard.png)
+![Book Page](src/main/webapp/images/admindashboard.png)
+
+#### AddBooks
+
+![Book Page](src/main/webapp/images/adminaddbooks.png)
+
+#### RemoveBooks
+
+![Book Page](src/main/webapp/images/adminremovebooks.png)
+
+#### Admin Available Books 
+
+![Book Page](src/main/webapp/images/adminABdashboard.png)
 
 
 # Future Enhancements
-. Payment integration (Razorpay/Stripe)
+1.  Payment integration (Razorpay/Stripe)
 
-. Email confirmation on registration
+2.  Email confirmation on registration
 
-. JWT-based authentication
+3.  JWT-based authentication
  
-. Wishlist and Order history
+4.  Wishlist and Order history
+ 
+5.  Mobile responsiveness
 
-. Mobile responsiveness
-
-. Admin analytics panel
+6.  Admin analytics panel
 
 
 
