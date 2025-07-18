@@ -1,7 +1,10 @@
-# Count JSP as Java — it's server-side
+# Count JSP files as Java (server-side views)
 *.jsp linguist-language=Java
 
-# Count HTML and CSS normally
+# Count HTML files as HTML
 *.html linguist-language=HTML
+
+# Count CSS files as CSS
 *.css linguist-language=CSS
+
 
