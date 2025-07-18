@@ -53,7 +53,7 @@ A full-stack online book store project developed using JSP, Servlets, JDBC, MySQ
 
 #  Tech Stack Used :-
 
-#### 1.Front-End Development:
+### 1.Front-End Development:
 
    HTML
 
@@ -61,7 +61,7 @@ A full-stack online book store project developed using JSP, Servlets, JDBC, MySQ
 
    JSP
 
-#### 2.Back-End Development:
+### 2.Back-End Development:
 
    Java [JDK 8+]
 
@@ -69,15 +69,15 @@ A full-stack online book store project developed using JSP, Servlets, JDBC, MySQ
 
    Servlet
 
-#### 3.Database:
+### 3.Database:
 
    MySql
 
-#### 4.Server:
+### 4.Server:
 
    Apache Tomcat
 
-#### 5.Tools : 	
+### 5.Tools : 	
 
    IDE - Eclipse EE
  
@@ -86,7 +86,7 @@ A full-stack online book store project developed using JSP, Servlets, JDBC, MySQ
 ### Note:
 
 > This project requires **Apache Tomcat 9.0** to run.
-> 
+ 
 > Please install it locally to deploy the project in Eclipse or IntelliJ.
 
 Download Link : https://tomcat.apache.org/download-90.cgi
@@ -98,6 +98,7 @@ Youtube resource : https://youtu.be/PH-bK3g2YmU?si=zvjdMk-lavILknro
  F:\
  
 ├── apache-tomcat-9.0.100\    ← ✅ Keep this here (not pushed to GitHub)
+
 └── onlinebookstore\          ← ✅ This is your project repo (can push to GitHub)
 
     ├── src\
