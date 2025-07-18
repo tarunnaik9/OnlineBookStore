@@ -1,5 +1,5 @@
 *.jsp linguist-language=HTML     # JSP as frontend
-*.html linguist-language=HTML
+*.jsp linguist-language=HTML
 *.css linguist-language=CSS
 
 
