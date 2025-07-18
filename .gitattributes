@@ -1,6 +1,11 @@
-*.jsp linguist-language=HTML     # JSP as frontend
+# JSP files contain mostly HTML-like structure
 *.jsp linguist-language=HTML
+
+# HTML and CSS files
+*.html linguist-language=HTML
 *.css linguist-language=CSS
 
+# Java files (backend logic)
+*.java linguist-language=Java
 
 
