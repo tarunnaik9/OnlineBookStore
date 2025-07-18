@@ -1,5 +1,4 @@
-
-*.jsp linguist-language=Java
+*.jsp linguist-language=Java     # JSP is backend (server-side)
 *.html linguist-language=HTML
 *.css linguist-language=CSS
 *.java linguist-language=Java
