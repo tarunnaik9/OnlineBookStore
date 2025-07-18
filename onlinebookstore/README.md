@@ -82,22 +82,31 @@ A full-stack online book store project developed using JSP, Servlets, JDBC, MySQ
    IDE - Eclipse EE
  
 #  How to Setup and Run Locally
+
 ### Note:
-> This project requires **Apache Tomcat 9.0** to run.  
+
+> This project requires **Apache Tomcat 9.0** to run.
+> 
 > Please install it locally to deploy the project in Eclipse or IntelliJ.
 
 Download Link : https://tomcat.apache.org/download-90.cgi
+
 Youtube resource : https://youtu.be/PH-bK3g2YmU?si=zvjdMk-lavILknro
 
 Keep Tomcat outside your project folder, like this:
  F:\
+ 
 ├── apache-tomcat-9.0.100\    ← ✅ Keep this here (not pushed to GitHub)
-└── onlinebookstore\          ← ✅ This is your project repo (can push to GitHub)
-    ├── src\
-    ├── WebContent\
-    ├── .gitattributes
-    └── README.md
 
+└── onlinebookstore\          ← ✅ This is your project repo (can push to GitHub)
+
+    ├── src\
+    
+    ├── WebContent\
+    
+    ├── .gitattributes
+    
+    └── README.md
 
 ### Prerequisites:
 1. JDK 8 or above
